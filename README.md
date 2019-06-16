@@ -1,6 +1,6 @@
 # Dicas de Python
 ## [datetime](https://github.com/hudsoncadan/python-tips/blob/master/datetime/DateTime%20Notebook.ipynb)
-Confira no arquivo [`datetime Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/datetime/DateTime%20Notebook.ipynb):
+Confira no arquivo [`datetime Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/datetime/datetime%20Notebook.ipynb):
 1. Exibir datetime formatado em português
 2. Converter string para datetime
 3. DataFrame com coluna de data
