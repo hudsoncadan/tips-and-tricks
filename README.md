@@ -1,8 +1,9 @@
 ﻿# Dicas de Python
 1. [datetime](#datetime): Manipule datas e horas.
-2. [pandas.DataFrame.unstack()](#unstack): Converta índices em colunas.
+2. [pandas.DataFrame.diff()](#diff): Calcule a diferença de valores entre cada linha de um DataFrame.
+3. [pandas.DataFrame.unstack()](#unstack): Converta índices em colunas.
 <a id="datetime"></a>
-## [datetime](https://github.com/hudsoncadan/python-tips/blob/master/datetime/DateTime%20Notebook.ipynb)
+## datetime
 Confira no arquivo [`datetime Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/datetime/datetime%20Notebook.ipynb):
 1. Exibir datetime formatado em português
 2. Converter string para datetime
@@ -13,7 +14,11 @@ Confira no arquivo [`datetime Notebook.ipynb`](https://github.com/hudsoncadan/py
 7. Cálculo entre datas: subtrair dias, adicionar meses
 8. Converter timestamp x datetime
 9. Fuso horário
+<a id="diff"></a>
+## pandas.DataFrame.diff()
+Confira no arquivo [`diff Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/diff/diff%20Notebook.ipynb):
+1. Calcule a diferença de valores entre cada linha de um DataFrame.
 <a id="unstack"></a>
-## [pandas.DataFrame.unstack()](https://github.com/hudsoncadan/python-tips/blob/master/datetime/DateTime%20Notebook.ipynb)
+## pandas.DataFrame.unstack()
 Confira no arquivo [`unstack Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/unstack/unstack%20Notebook.ipynb):
 1. Converta os índices de um DataFrame em colunas.
