@@ -2,6 +2,7 @@
 1. [datetime](#datetime): Manipule datas e horas.
 2. [pandas.DataFrame.diff()](#diff): Calcule a diferença de valores entre cada linha de um DataFrame.
 3. [pandas.DataFrame.unstack()](#unstack): Converta índices em colunas.
+4. [pandas.Series.str.contains()](#strcontains): Consulte se um valor ou uma expressão regular está contida dentro de uma Series.
 <a id="datetime"></a>
 ## datetime
 Confira no arquivo [`datetime Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/datetime/datetime%20Notebook.ipynb):
@@ -22,3 +23,7 @@ Confira no arquivo [`diff Notebook.ipynb`](https://github.com/hudsoncadan/python
 ## pandas.DataFrame.unstack()
 Confira no arquivo [`unstack Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/unstack/unstack%20Notebook.ipynb):
 1. Converta os índices de um DataFrame em colunas.
+<a id="strcontains"></a>
+## pandas.Series.str.contains()
+Confira no arquivo [`strcontains Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/strcontains/strcontains%20Notebook.ipynb):
+1. Consulte se um valor ou uma expressão regular está contida dentro de uma Series.
