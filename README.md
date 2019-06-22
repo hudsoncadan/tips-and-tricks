@@ -2,11 +2,13 @@
 ## Python
 1. [datetime](#datetime): Manipule datas e horas.
 ## Pandas
-2. [pandas.core.groupby.GroupBy.cumcount()](#cumcount): Crie uma coluna autoincremento baseado em um grupo de colunas.
-3. [pandas.DataFrame.diff()](#diff): Calcule a diferença de valores entre cada linha de um DataFrame.
-4. [pandas.DataFrame.unstack()](#unstack): Converta índices em colunas.
-5. [pandas.Series.str.contains()](#strcontains): Consulte se um valor ou uma expressão regular está contida dentro de uma Series.
+1. [pandas.core.groupby.GroupBy.cumcount()](#cumcount): Crie uma coluna autoincremento baseado em um grupo de colunas.
+2. [pandas.DataFrame.diff()](#diff): Calcule a diferença de valores entre cada linha de um DataFrame.
+3. [pandas.DataFrame.unstack()](#unstack): Converta índices em colunas.
+4. [pandas.Series.str.contains()](#strcontains): Consulte se um valor ou uma expressão regular está contida dentro de uma Series.
 <a id="datetime"></a>
+## Machine Learning
+1. [`Missing Values`](#missingvalues): Conheça 3 técnicas para trabalhar com Missing Values.
 ### datetime
 Confira no arquivo [`datetime Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/python/datetime/datetime%20Notebook.ipynb):
 1. Exibir datetime formatado em português
@@ -34,3 +36,11 @@ Confira no arquivo [`unstack Notebook.ipynb`](https://github.com/hudsoncadan/pyt
 ### pandas.Series.str.contains()
 Confira no arquivo [`strcontains Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/pandas/strcontains/strcontains%20Notebook.ipynb):
 1. Consulte se um valor ou uma expressão regular está contida dentro de uma Series.
+<a id="missingvalues"></a>
+### Missing Values:
+Confira no arquivo [`missingvalues Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/machinelearning/missingvalues/missingvalues%20Notebook.ipynb):
+
+Neste notebook são apresentadas 3 ténicas para trabalhar com Missing Values. Existem casos que são aplicados algoritmos de Machine Learning para prever os valores faltantes.
+1. Exclusão de colunas com valores faltantes.
+2. Inclusão de valores através da técnica Imputation.
+3. Inclusão de valores através da técnica Imputation, com o armazenamento de quais valores foram incluídos.
