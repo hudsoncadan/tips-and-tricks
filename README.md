@@ -8,7 +8,8 @@
 4. [pandas.Series.str.contains()](#strcontains): Consulte se um valor ou uma expressão regular está contida dentro de uma Series.
 <a id="datetime"></a>
 ## Machine Learning
-1. [`Missing Values`](#missingvalues): Conheça 3 técnicas para trabalhar com Missing Values.
+1. [`Categorical Variables`](#categoricalvariables): Conheça 3 técnicas para trabalhar com Categorical Variables.
+2. [`Missing Values`](#missingvalues): Conheça 3 técnicas para trabalhar com Missing Values.
 ### datetime
 Confira no arquivo [`datetime Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/python/datetime/datetime%20Notebook.ipynb):
 1. Exibir datetime formatado em português
@@ -36,6 +37,12 @@ Confira no arquivo [`unstack Notebook.ipynb`](https://github.com/hudsoncadan/pyt
 ### pandas.Series.str.contains()
 Confira no arquivo [`strcontains Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/pandas/strcontains/strcontains%20Notebook.ipynb):
 1. Consulte se um valor ou uma expressão regular está contida dentro de uma Series.
+<a id="categoricalvariables"></a>
+### CategoricalVariables:
+Confira no arquivo [`categoricalvariables Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/machinelearning/categoricalvariables/categoricalvariables%20Notebook.ipynb):
+1. Exclusão de colunas com Variáveis Categóricas.
+2. Inclusão de valores através da técnica LabelEncoder. 
+3. Inclusão de valores através da técnica OneHotEncoder.
 <a id="missingvalues"></a>
 ### Missing Values:
 Confira no arquivo [`missingvalues Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/machinelearning/missingvalues/missingvalues%20Notebook.ipynb):
