@@ -6,10 +6,11 @@
 2. [pandas.DataFrame.diff()](#diff): Calcule a diferença de valores entre cada linha de um DataFrame.
 3. [pandas.DataFrame.unstack()](#unstack): Converta índices em colunas.
 4. [pandas.Series.str.contains()](#strcontains): Consulte se um valor ou uma expressão regular está contida dentro de uma Series.
-<a id="datetime"></a>
 ## Machine Learning
-1. [`Categorical Variables`](#categoricalvariables): Conheça 3 técnicas para trabalhar com Categorical Variables.
-2. [`Missing Values`](#missingvalues): Conheça 3 técnicas para trabalhar com Missing Values.
+1. [Categorical Variables](#categoricalvariables): Conheça 3 técnicas para trabalhar com Categorical Variables.
+2. [Missing Values](#missingvalues): Conheça 3 técnicas para trabalhar com Missing Values.
+3. [sklearn.pipeline.Pipeline](#pipelines): Agrupe as etapas de pré-processamento e modelagem dos dados.
+<a id="datetime"></a>
 ### datetime
 Confira no arquivo [`datetime Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/python/datetime/datetime%20Notebook.ipynb):
 1. Exibir datetime formatado em português
@@ -24,8 +25,8 @@ Confira no arquivo [`datetime Notebook.ipynb`](https://github.com/hudsoncadan/py
 <a id="cumcount"></a>
 ### pandas.core.groupby.GroupBy.cumcount()
 Confira no arquivo [`cumcount Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/pandas/cumcount/cumcount%20Notebook.ipynb):
-<a id="diff"></a>
 1. Crie uma coluna autoincremento baseado em um grupo de colunas.
+<a id="diff"></a>
 ### pandas.DataFrame.diff()
 Confira no arquivo [`diff Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/pandas/diff/diff%20Notebook.ipynb):
 1. Calcule a diferença de valores entre cada linha de um DataFrame.
@@ -51,3 +52,7 @@ Neste notebook são apresentadas 3 ténicas para trabalhar com Missing Values. E
 1. Exclusão de colunas com valores faltantes.
 2. Inclusão de valores através da técnica Imputation.
 3. Inclusão de valores através da técnica Imputation, com o armazenamento de quais valores foram incluídos.
+<a id="pipelines"></a>
+### sklearn.pipeline.Pipeline:
+Confira no arquivo [`pipelines Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/machinelearning/pipelines/pipelines%20Notebook.ipynb):
+1. Agrupe as etapas de pré-processamento e modelagem dos dados como se fosse uma única etapa.
