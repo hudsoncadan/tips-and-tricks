@@ -10,6 +10,7 @@
 1. [Categorical Variables](#categoricalvariables): Conheça 3 técnicas para trabalhar com Categorical Variables.
 2. [Missing Values](#missingvalues): Conheça 3 técnicas para trabalhar com Missing Values.
 3. [sklearn.pipeline.Pipeline](#pipelines): Agrupe as etapas de pré-processamento e modelagem dos dados.
+4. [sklearn.model_selection.cross_val_score](#crossvalidation): Execute o processo de modelagem em diferentes subconjuntos de dados para obter várias medidas de qualidade do modelo.
 <a id="datetime"></a>
 ### datetime
 Confira no arquivo [`datetime Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/python/datetime/datetime%20Notebook.ipynb):
@@ -56,3 +57,7 @@ Neste notebook são apresentadas 3 ténicas para trabalhar com Missing Values. E
 ### sklearn.pipeline.Pipeline:
 Confira no arquivo [`pipelines Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/machinelearning/pipelines/pipelines%20Notebook.ipynb):
 1. Agrupe as etapas de pré-processamento e modelagem dos dados como se fosse uma única etapa.
+<a id="crossvalidation"></a>
+### sklearn.model_selection.cross_val_score:
+Confira no arquivo [`crossvalidation Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/machinelearning/crossvalidation/crossvalidation%20Notebook.ipynb):
+1. Ao utilizar cross-validation, nós submetemos o processo de modelagem de dados em diferentes grupos de dados com o objetivo de adquirir várias métricas da qualidade do modelo.
