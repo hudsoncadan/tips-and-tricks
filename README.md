@@ -6,6 +6,7 @@
 2. [pandas.DataFrame.diff()](#diff): Calcule a diferença de valores entre cada linha de um DataFrame.
 3. [pandas.DataFrame.unstack()](#unstack): Converta índices em colunas.
 4. [pandas.Series.str.contains()](#strcontains): Consulte se um valor ou uma expressão regular está contida dentro de uma Series.
+5. [pandas.melt()](#melt): Converta os elementos de uma lista em várias linhas no DataFrame.
 ## Machine Learning
 1. [Categorical Variables](#categoricalvariables): Conheça 3 técnicas para trabalhar com Categorical Variables.
 2. [Missing Values](#missingvalues): Conheça 3 técnicas para trabalhar com Missing Values.
@@ -39,6 +40,10 @@ Confira no arquivo [`unstack Notebook.ipynb`](https://github.com/hudsoncadan/pyt
 ### pandas.Series.str.contains()
 Confira no arquivo [`strcontains Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/pandas/strcontains/strcontains%20Notebook.ipynb):
 1. Consulte se um valor ou uma expressão regular está contida dentro de uma Series.
+<a id="melt"></a>
+### pandas.melt()
+Confira no arquivo [`melt Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/pandas/melt/melt%20Notebook.ipynb):
+1. Converta os elementos de uma lista em várias linhas no DataFrame.
 <a id="categoricalvariables"></a>
 ### CategoricalVariables:
 Confira no arquivo [`categoricalvariables Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/machinelearning/categoricalvariables/categoricalvariables%20Notebook.ipynb):
