@@ -3,10 +3,11 @@
 1. [datetime](#datetime): Manipule datas e horas.
 ## Pandas
 1. [pandas.core.groupby.GroupBy.cumcount()](#cumcount): Crie uma coluna autoincremento baseado em um grupo de colunas.
-2. [pandas.DataFrame.diff()](#diff): Calcule a diferença de valores entre cada linha de um DataFrame.
-3. [pandas.DataFrame.unstack()](#unstack): Converta índices em colunas.
-4. [pandas.Series.str.contains()](#strcontains): Consulte se um valor ou uma expressão regular está contida dentro de uma Series.
-5. [pandas.melt()](#melt): Converta os elementos de uma lista em várias linhas no DataFrame.
+2. [pandas.cut()](#cut): Converta dados numéricos em dados categóricos.
+3. [pandas.DataFrame.diff()](#diff): Calcule a diferença de valores entre cada linha de um DataFrame.
+4. [pandas.DataFrame.unstack()](#unstack): Converta índices em colunas.
+5. [pandas.Series.str.contains()](#strcontains): Consulte se um valor ou uma expressão regular está contida dentro de uma Series.
+6. [pandas.melt()](#melt): Converta os elementos de uma lista em várias linhas no DataFrame.
 ## Machine Learning
 1. [Categorical Variables](#categoricalvariables): Conheça 3 técnicas para trabalhar com Categorical Variables.
 2. [Missing Values](#missingvalues): Conheça 3 técnicas para trabalhar com Missing Values.
@@ -28,6 +29,10 @@ Confira no arquivo [`datetime Notebook.ipynb`](https://github.com/hudsoncadan/py
 ### pandas.core.groupby.GroupBy.cumcount()
 Confira no arquivo [`cumcount Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/pandas/cumcount/cumcount%20Notebook.ipynb):
 1. Crie uma coluna autoincremento baseado em um grupo de colunas.
+<a id="cut"></a>
+### pandas.cut()
+Confira no arquivo [`cut Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/pandas/cut/cut%20Notebook.ipynb):
+1. Converta dados numéricos em dados categóricos.
 <a id="diff"></a>
 ### pandas.DataFrame.diff()
 Confira no arquivo [`diff Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/pandas/diff/diff%20Notebook.ipynb):
