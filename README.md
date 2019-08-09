@@ -14,6 +14,8 @@
 3. [sklearn.pipeline.Pipeline](#pipelines): Agrupe as etapas de pré-processamento e modelagem dos dados.
 4. [sklearn.model_selection.cross_val_score](#crossvalidation): Execute o processo de modelagem em diferentes subconjuntos de dados para obter várias medidas de qualidade do modelo.
 <a id="datetime"></a>
+## Desafios
+1. [Kaggle Credit Card LinearRegression](#kaggle_creditcard_regression): Este notebook apresenta um modelo capaz de prever o Saldo (Balance) do cartão de crédito de acordo com uma série de características dos usuários. 
 ### datetime
 Confira no arquivo [`datetime Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/python/datetime/datetime%20Notebook.ipynb):
 1. Exibir datetime formatado em português
@@ -71,3 +73,7 @@ Confira no arquivo [`pipelines Notebook.ipynb`](https://github.com/hudsoncadan/p
 ### sklearn.model_selection.cross_val_score:
 Confira no arquivo [`crossvalidation Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/machinelearning/crossvalidation/crossvalidation%20Notebook.ipynb):
 1. Ao utilizar cross-validation, nós submetemos o processo de modelagem de dados em diferentes grupos de dados com o objetivo de adquirir várias métricas da qualidade do modelo.
+<a id="kaggle_creditcard_regression"></a>
+### Kaggle Credit Card LinearRegression:
+Confira no arquivo [`Kaggle Credit Card LinearRegression.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/desafios/kaggle/creditcard/regression/Kaggle%20Credit%20Card%20LinearRegression.ipynb):
+1. Este notebook apresenta um modelo capaz de prever o Saldo (Balance) do cartão de crédito de acordo com uma série de características dos usuários.
