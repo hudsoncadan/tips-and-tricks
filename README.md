@@ -8,6 +8,7 @@
 4. [pandas.DataFrame.unstack()](#unstack): Converta índices em colunas.
 5. [pandas.Series.str.contains()](#strcontains): Consulte se um valor ou uma expressão regular está contida dentro de uma Series.
 6. [pandas.melt()](#melt): Converta os elementos de uma lista em várias linhas no DataFrame.
+7. [pandas.DataFrame.explode()](#explode): Disponível a partir da versão 0.25, converta os elementos de uma lista em várias linhas no DataFrame.
 ## Machine Learning
 1. [Categorical Variables](#categoricalvariables): Conheça 3 técnicas para trabalhar com Categorical Variables.
 2. [Missing Values](#missingvalues): Conheça 3 técnicas para trabalhar com Missing Values.
@@ -52,6 +53,10 @@ Confira no arquivo [`strcontains Notebook.ipynb`](https://github.com/hudsoncadan
 ### pandas.melt()
 Confira no arquivo [`melt Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/pandas/melt/melt%20Notebook.ipynb):
 1. Converta os elementos de uma lista em várias linhas no DataFrame.
+<a id="explode"></a>
+### pandas.DataFrame.explode()
+Confira no arquivo [`explode Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/pandas/explode/explode%20Notebook.ipynb):
+1. Disponível a partir da versão 0.25, converta os elementos de uma lista em várias linhas no DataFrame.
 <a id="categoricalvariables"></a>
 ### CategoricalVariables:
 Confira no arquivo [`categoricalvariables Notebook.ipynb`](https://github.com/hudsoncadan/python-tips/blob/master/dicas/machinelearning/categoricalvariables/categoricalvariables%20Notebook.ipynb):
