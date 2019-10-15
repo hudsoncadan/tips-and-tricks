@@ -1,6 +1,7 @@
 ﻿# Dicas de Python, Pandas e Machine Learning
 ## Python
 1. [datetime](https://github.com/hudsoncadan/python-tips/blob/master/dicas/python/datetime/datetime%20Notebook.ipynb): Manipule datas e horas.
+2. [Organizador de Arquivos](https://github.com/hudsoncadan/python-tips/blob/master/dicas/python/organizador/organizador%20Notebook.ipynb): Organize por tipo os arquivos de um diretório.
 ## Pandas
 1. [pandas.core.groupby.GroupBy.cumcount()](https://github.com/hudsoncadan/python-tips/blob/master/dicas/pandas/cumcount/cumcount%20Notebook.ipynb): Crie uma coluna autoincremento baseado em um grupo de colunas.
 2. [pandas.cut()](https://github.com/hudsoncadan/python-tips/blob/master/dicas/pandas/cut/cut%20Notebook.ipynb): Converta dados numéricos em dados categóricos.
