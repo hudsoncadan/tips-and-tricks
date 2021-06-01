@@ -1,4 +1,7 @@
-﻿# Dicas de Python, Pandas e Machine Learning
+﻿# 1. ASP.NET
+## OpenID e OAuth 2.0
+1. [IdentityServer4](https://github.com/hudsoncadan/Authentication): Framework que implementa os protocolos OpenID e OAuth 2.0, gratuito, open source e disponível para ASP.NET Core.
+# 2. Dicas de Python, Pandas e Machine Learning
 ## Python
 1. [datetime](https://github.com/hudsoncadan/tips-and-tricks/blob/master/dicas/python/datetime/datetime%20Notebook.ipynb): Manipule datas e horas.
 2. [Organizador de Arquivos](https://github.com/hudsoncadan/tips-and-tricks/blob/master/dicas/python/organizador/Organizador.ipynb): Organize por tipo os arquivos de um diretório.
