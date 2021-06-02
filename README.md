@@ -1,4 +1,6 @@
 ﻿# 1. ASP.NET
+## Web App
+1. [HTML Helpers x Tag Helpers](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/aspnet/webapps/htmlhelpers-taghelpers): Compare o uso de HTML Helpers x Tag Helpers e aprenda a criar Tag Helpers personalizados.
 ## OpenID e OAuth 2.0
 1. [IdentityServer4](https://github.com/hudsoncadan/Authentication): Framework que implementa os protocolos OpenID e OAuth 2.0, gratuito, open source e disponível para ASP.NET Core.
 # 2. Dicas de Python, Pandas e Machine Learning
