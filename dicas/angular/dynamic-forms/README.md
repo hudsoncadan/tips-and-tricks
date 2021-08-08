@@ -6,7 +6,7 @@ Projeto Angular criado com o objetivo de simular a criação de formulários din
 
 Este projeto está organizado dentro do App Module com dois Services e dois Components. Segue o diagrama que representa a estrutura do projeto.
 
-![Simulação de Formulário Dinâmico](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/angular/dynamic-forms/src/assets/Estrutura.png)
+![Simulação de Formulário Dinâmico](https://github.com/hudsoncadan/tips-and-tricks/blob/master/dicas/angular/dynamic-forms/src/assets/Estrutura.png)
 
 ### Services
 **QuestionService** é o ponto de entrada da aplicação. Este Service é responsável por trazer do back-end as perguntas que serão exibidas dinamicamente para o usuário. O Service é injetado no componente *[AppComponent](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/angular/dynamic-forms/src/app/components)*.
