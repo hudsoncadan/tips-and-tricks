@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-md-12">
+        <h2>{{ title }}</h2>
+    </div>
+</div>
+
+<div *ngIf="questions; else loading">
+    <form (ngSubmit)="onSubmit()" [formGroup]="form">
+
+        <div *ngFor="let question of questions">
+            <app-question [question]="question" [form]="form"></app-question>
+        </div>
+
+        <button *ngIf="!isSendingData; else loading" id="buttonEnviarDados" type="submit" [disabled]="!form?.valid"
+            class="btn btn-primary">
+            Enviar Dados
+        </button>
+    </form>
+
+    <div *ngIf="payLoad && !isSendingData" class="alert alert-success mt-3" role="alert">
+        <strong>Dados do Formulário:</strong>
+        <br>{{ payLoad }}
+    </div>
+</div>
+
+<ng-template #loading>
+    <div class="alert alert-primary mt-3" role="alert">
+        <div class="spinner-grow spinner-grow-sm text-primary mr-3" role="status"></div>
+        Carregando...
+    </div>
+</ng-template>

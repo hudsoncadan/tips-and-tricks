@@ -1,27 +1,22 @@
-# DynamicForms
+# Simulação de Formulário Dinâmico
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.3.
+Projeto Angular criado com o objetivo de simular a criação de formulários dinamicamente. Acesse o projeto através do link [https://angular-dynamicform.web.app/](https://angular-dynamicform.web.app/).
 
-## Development server
+## Estrutura do Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Este projeto está organizado dentro do App Module com dois Services e dois Components. Segue o diagrama que representa a estrutura do projeto.
 
-## Code scaffolding
+![Simulação de Formulário Dinâmico](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/angular/dynamic-forms/src/assets/Estrutura.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Services
+**QuestionService** é o ponto de entrada da aplicação. Este Service é responsável por trazer do back-end as perguntas que serão exibidas dinamicamente para o usuário. O Service é injetado no componente *[AppComponent](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/angular/dynamic-forms/src/app/components)*.
 
-## Build
+Neste contexto, o Service simula um retorno de uma API com um delay de dois segundos.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+**QuestionControlService** é injetado no componente *[DynamicFormComponent](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/angular/dynamic-forms/src/app/components)*. Este Service é responsável por percorrer o array de perguntas carregadas do back-end e converter cada pergunta em um FormGroup. Portanto, cada FormGroup representa uma Pergunta que será exibida para o usuário final.
 
-## Running unit tests
+### Components
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**DynamicFormComponent** representa o Formulário que conterá todas as perguntas exibidas para o usuário. Este componente recebe como *Input* uma lista de *[QuestionBase](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/angular/dynamic-forms/src/app/models)* e através do *[QuestionControlService](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/angular/dynamic-forms/src/app/services)* (comentado anteriormente) irá converter cada pergunta em um FormGroup.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**DynamicFormQuestionComponent** representa uma Pergunta. É neste componente que o elemento DOM é criado e exibido para o usuário final.
