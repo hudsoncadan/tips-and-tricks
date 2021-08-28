@@ -1,4 +1,6 @@
-﻿# 1. ASP.NET
+﻿# 1. Docker
+1. [Comandos](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/docker): Quick reminder de comandos Docker.
+# 2. ASP.NET
 ## C#
 1. [LINQ](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/aspnet/csharp/linq): Conceito e Exemplos de LINQ para facilitar o entendimento.
 ## Web App
@@ -6,9 +8,9 @@
 2. [HTML Helpers x Tag Helpers](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/aspnet/webapps/htmlhelpers-taghelpers): Compare o uso de HTML Helpers x Tag Helpers e aprenda a criar Tag Helpers personalizados.
 ## OpenID e OAuth 2.0
 1. [IdentityServer4](https://github.com/hudsoncadan/Authentication): Framework que implementa os protocolos OpenID e OAuth 2.0, gratuito, open source e disponível para ASP.NET Core.
-# 2. Angular
+# 3. Angular
 1. [Formulários Dinâmicos](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/angular/dynamic-forms): Projeto Angular com o objetivo de simular a criação de formulários dinamicamente.
-# 3. Python, Pandas e Machine Learning
+# 4. Python, Pandas e Machine Learning
 ## Python
 1. [datetime](https://github.com/hudsoncadan/tips-and-tricks/blob/master/dicas/python/datetime/datetime%20Notebook.ipynb): Manipule datas e horas.
 2. [Organizador de Arquivos](https://github.com/hudsoncadan/tips-and-tricks/blob/master/dicas/python/organizador/Organizador.ipynb): Organize por tipo os arquivos de um diretório.
