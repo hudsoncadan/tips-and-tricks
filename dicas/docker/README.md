@@ -4,6 +4,7 @@ Comandos Básicos mais utilizados e descritos resumidamente. O objetivo aqui nã
 - [__docker image ls__](https://docs.docker.com/engine/reference/commandline/image/) Lista todas as imagens.
 - [__docker images__](https://docs.docker.com/engine/reference/commandline/images/) Lista todas as imagens.
 - [__docker rmi__](https://docs.docker.com/engine/reference/commandline/images/) Remove uma ou mais imagens.
+- [__docker rmi $(docker images -aq)__]() Remove todas as imagens. A flag __-a__ significa listar todas as Imagens; e a flag __-q__ exibir apenas os IDs das Imagens.
 - [__docker build__](https://docs.docker.com/engine/reference/commandline/build/) Cria uma _Imagem_ a partir de um arquivo _Dockerfile_.
 - [__docker run__](https://docs.docker.com/engine/reference/commandline/run/) Cria e Inicia um _Container_ a partir de uma _Imagem_.
 
@@ -30,6 +31,7 @@ Com o comanda acima, podemos interpretá-lo da seguinte forma:
 - [__docker ps -a__](https://docs.docker.com/engine/reference/commandline/ps/) Lista todos os _Container_. A flag _-a_ inclui os _Containers_ que estão parados.
 - [__docker start__](https://docs.docker.com/engine/reference/commandline/start/) Diferentemente do _docker run_, o comanda _docker start_ inicia um _Container_ que esteja parado.
 - [__docker stop__](https://docs.docker.com/engine/reference/commandline/stop/) Finaliza um _Container_ que esteja em execução.
+- [__docker stop $(docker ps -aq)__](https://docs.docker.com/engine/reference/commandline/ps/) Finaliza todos os containers. A flag __-a__ significa listar todos os Containers (incluindo os que estão parados); e a flag __-q__ exibir apenas os IDs dos Containers.
 - [__docker logs__](https://docs.docker.com/engine/reference/commandline/logs/) Utilizado para verificar os logs de um _Container_.
 - [__docker exec__](https://docs.docker.com/engine/reference/commandline/exec/) Executa um comando em um _Container_ em execução.
 
