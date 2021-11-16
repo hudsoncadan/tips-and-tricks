@@ -12,6 +12,7 @@
 # 3. Flutter
 1. [Package GET](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/flutter/package_get): Package GET para Flutter com recursos de Gerenciamento de Estado, Injeção de Dependência e Navegação.
 2. [Unit and Widget Tests](/dicas/flutter/tests/flutter_tests): Projeto Flutter com demonstração de Testes Unitários e Testes de Widget.
+3. [Lista de Imagens com Animações](dicas/flutter/flutter_heart_animation): Lista de imagens, semelhante ao Instagram, com uma animação de like no duplo toque do usuário. 
 # 4. Angular
 1. [Formulários Dinâmicos](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/angular/dynamic-forms): Projeto Angular com o objetivo de simular a criação de formulários dinamicamente.
 # 5. Python, Pandas e Machine Learning
