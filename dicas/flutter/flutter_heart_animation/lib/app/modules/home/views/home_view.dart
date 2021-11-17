@@ -31,10 +31,7 @@ class HomeView extends GetView<HomeController> {
                   children: [
                     Text(model.title!),
                     GestureDetector(
-                      onDoubleTap: () {
-                        heartWidget.controller.animationController.reset();
-                        heartWidget.controller.animationController.forward();
-                      },
+                      onDoubleTap: heartWidget.controller.runAnimation,
                       child: AspectRatio(
                         aspectRatio: 1,
                         child: Stack(

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class HeartController extends GetxController with SingleGetTickerProviderMixin {
-  late AnimationController animationController;
+  late AnimationController _animationController;
   late Animation<double> animationScale;
   late Animation<double> animationFade;
 
@@ -10,7 +10,7 @@ class HeartController extends GetxController with SingleGetTickerProviderMixin {
   void onInit() {
     super.onInit();
 
-    animationController = AnimationController(
+    _animationController = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 400),
     );
@@ -19,7 +19,7 @@ class HeartController extends GetxController with SingleGetTickerProviderMixin {
       <TweenSequenceItem<double>>[
         TweenSequenceItem(tween: Tween(begin: 0.0, end: 1.0), weight: 1),
       ],
-    ).animate(animationController);
+    ).animate(_animationController);
 
     // Just for curiosity
     // It's possible to control when a TweenSequence will happen during the animation
@@ -32,15 +32,20 @@ class HeartController extends GetxController with SingleGetTickerProviderMixin {
       ],
     ).animate(
       CurvedAnimation(
-        parent: animationController,
+        parent: _animationController,
         curve: const Interval(0, 1, curve: Curves.easeOut),
       ),
     );
   }
 
+  runAnimation() {
+    _animationController.reset();
+    _animationController.forward();
+  }
+
   @override
   void dispose() {
-    animationController.dispose();
+    _animationController.dispose();
     super.dispose();
   }
 }
