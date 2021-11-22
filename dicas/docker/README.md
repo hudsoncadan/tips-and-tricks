@@ -4,7 +4,7 @@ Comandos Básicos mais utilizados e descritos resumidamente. O objetivo aqui nã
 - [__docker image ls__](https://docs.docker.com/engine/reference/commandline/image/) Lista todas as imagens.
 - [__docker images__](https://docs.docker.com/engine/reference/commandline/images/) Lista todas as imagens.
 - [__docker rmi__](https://docs.docker.com/engine/reference/commandline/images/) Remove uma ou mais imagens.
-- [__docker rmi $(docker images -aq)__]() Remove todas as imagens. A flag __-a__ significa listar todas as Imagens; e a flag __-q__ exibir apenas os IDs das Imagens.
+- [__docker rmi $(docker images -aq)__](https://docs.docker.com/engine/reference/commandline/images/) Remove todas as imagens. A flag __-a__ significa listar todas as Imagens; e a flag __-q__ exibir apenas os IDs das Imagens.
 - [__docker build__](https://docs.docker.com/engine/reference/commandline/build/) Cria uma _Imagem_ a partir de um arquivo _Dockerfile_.
 - [__docker run__](https://docs.docker.com/engine/reference/commandline/run/) Cria e Inicia um _Container_ a partir de uma _Imagem_.
 
@@ -21,7 +21,7 @@ Exemplo:
 docker run -d -rm -p 8080:80 some-content-nginx
 ```
 
-Com o comanda acima, podemos interpretá-lo da seguinte forma: 
+Com o comando acima, podemos interpretá-lo da seguinte forma: 
 - Iniciar o container a partir da imagem some-content-nginx
 - Executá-lo em background
 - Para ser removido assim que o _Container_ for finalizado
