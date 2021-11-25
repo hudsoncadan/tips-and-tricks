@@ -1,0 +1,46 @@
+# workspace
+*.suo
+*.user
+*.sln.ide
+*.sln.cache
+*.sln.docstates
+.vs/
+.vscode/
+[Oo]bj/
+[Tt]est[Rr]esult*/
+.idea/
+# [Bb]in/
+**/bin/Debug/
+**/bin/Release/*
+!**/bin/Release/net5.0
+**/bin/Release/net5.0/*
+!**/bin/Release/net5.0/BenchmarkDotNet.Artifacts
+**/bin/Release/net5.0/BenchmarkDotNet.Artifacts/*
+!**/bin/Release/net5.0/BenchmarkDotNet.Artifacts/results
+**/bin/Release/net5.0/BenchmarkDotNet.Artifacts/results/*.csv
+**/bin/Release/net5.0/BenchmarkDotNet.Artifacts/results/*.md
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# npm
+node_modules/
+npm-debug.log
+package-lock.json
+
+# project
+*.[Cc]ustom.*
+[Ll]ogs/
+tempkey.rsa
+.env
+
+# other
+Thumbs.db
+/[Bb]uild/*
+
+#Mac
+.DS_Store
+
+*.cache

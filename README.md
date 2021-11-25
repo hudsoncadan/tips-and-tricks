@@ -2,8 +2,9 @@
 1. [Comandos](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/docker): Quick reminder de comandos Docker.
 # 2. ASP.NET
 ## C#
-1. [LINQ](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/aspnet/csharp/linq): Conceito e Exemplos de LINQ para facilitar o entendimento.
+1. [Performance C#](dicas/aspnet/csharp/performance/PerformanceSolution/): Comparativo de perfomance entre List x Enumerable utilizando for, foreach e LINQ. Qual são as apostas para a melhor performance?
 2. [Unit of Work](dicas/aspnet/unitofwork/UoWSolution): Implementação do padrão Repository com Unit of Work.
+3. [LINQ](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/aspnet/csharp/linq): Conceito e Exemplos de LINQ para facilitar o entendimento.
 ## Web App
 1. [Sintaxe Razor para ASP.NET Core](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/aspnet/webapps/razor-syntax): Renderize C# para HTML através da Sintaxe Razor.
 2. [HTML Helpers x Tag Helpers](https://github.com/hudsoncadan/tips-and-tricks/tree/master/dicas/aspnet/webapps/htmlhelpers-taghelpers): Compare o uso de HTML Helpers x Tag Helpers e aprenda a criar Tag Helpers personalizados.
