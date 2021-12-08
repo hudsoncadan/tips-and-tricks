@@ -4,7 +4,9 @@ Uma maneira fácil para executar processamento em background com .NET. Documenta
 É possível adicionar serviços para serem executados assim que possível, agendar ou até mesmo serviços recorrentes.
 
 ## Estrutura do Projeto
-Este repository apresenta um simples projeto para demonstração de serviços em background. Ao iniciar o projeto, o dashboard do Hangfire será carregado e é possível acompanhar os serviços em execução e/ou que foram executados.
+Este repository apresenta um simples projeto para demonstração de serviços em background. Ao iniciar o projeto, o dashboard do Hangfire será carregado e é possível acompanhar os serviços em execução e/ou concluídos através de um dashboard.
+
+![hangfire](https://user-images.githubusercontent.com/29586519/145302467-bdc35870-5b2e-4d05-927c-47ba1e5a7552.png)
 
 Caso queira executar o projeto, recomendo:
 - Fazer o clone do repository em sua máquina local e executar, ou;
