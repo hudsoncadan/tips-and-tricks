@@ -5,20 +5,20 @@ Comandos Básicos mais utilizados e descritos resumidamente. O objetivo aqui nã
 - [__docker images__](https://docs.docker.com/engine/reference/commandline/images/) Lista todas as imagens.
 - [__docker rmi__](https://docs.docker.com/engine/reference/commandline/images/) Remove uma ou mais imagens.
 - [__docker rmi $(docker images -aq)__](https://docs.docker.com/engine/reference/commandline/images/) Remove todas as imagens. A flag __-a__ significa listar todas as Imagens; e a flag __-q__ exibir apenas os IDs das Imagens.
-- [__docker build__](https://docs.docker.com/engine/reference/commandline/build/) Cria uma _Imagem_ a partir de um arquivo _Dockerfile_.
+- [__docker build -t tagname .__](https://docs.docker.com/engine/reference/commandline/build/) Cria uma _Imagem_ a partir de um arquivo _Dockerfile_.
 - [__docker run__](https://docs.docker.com/engine/reference/commandline/run/) Cria e Inicia um _Container_ a partir de uma _Imagem_.
 
 __Flags para o comando docker run__
 
 - __-d__ Inicia um _Container_ no modo _detach_, ou seja, o _Container_ é executado em background.
-- __-rm__ Automaticamente remove o _Container_ quando ele for finalizado.
+- __--rm__ Automaticamente remove o _Container_ quando ele for finalizado.
 - __-p__ Publica a porta do _Container_ para o _Host_. Para entender mais sobre Ports, veja a seção abaixo [Network, Ports](#ports).
 - __--network__  Nome da Network. Veja mais sobre _Network_ na seção abaixo.
 - __--name__ Nome desejado para o _Container_.
 
 Exemplo: 
 ```
-docker run -d -rm -p 8080:80 some-content-nginx
+docker run -d --rm -p 8080:80 some-content-nginx
 ```
 
 Com o comando acima, podemos interpretá-lo da seguinte forma: 
