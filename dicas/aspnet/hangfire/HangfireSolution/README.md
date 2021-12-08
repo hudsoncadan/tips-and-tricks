@@ -47,13 +47,13 @@ public class Startup
 
         // Adicionando todos os serviços para serem executados em background
         app.UseHangfireDashboard(options: new DashboardOptions
-                                            {
-												// Por padrão e questões de segurança,
-												// apenas local requests são permitidos acessar o dashboard.
-												// Portanto, adicionamos um filtro de autorização.
-												// https://docs.hangfire.io/en/latest/configuration/using-dashboard.html#configuring-authorization
-                                                Authorization = new[] { new HangfireAuthorizationFilter() },
-                                            })
+        {
+            // Por padrão e questões de segurança,
+            // apenas local requests são permitidos acessar o dashboard.
+            // Portanto, adicionamos um filtro de autorização.
+            // https://docs.hangfire.io/en/latest/configuration/using-dashboard.html#configuring-authorization
+            Authorization = new[] { new HangfireAuthorizationFilter() },
+        })
             .AddRecurringBackground()
             .AddOneTimeRunBackground(30)
             .AddEnqueuedBackground();
